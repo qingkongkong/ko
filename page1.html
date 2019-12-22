@@ -140,7 +140,7 @@
             <div class="gap"></div>
             <div class="container">
                 <div class="row col-md-12 fade-up">
-                    <div id="mt" style="width:55%;height: 360px; float: left;">
+                    <div id="mt" style="width:58%;height: 360px; float: left;">
 
                         <script type="text/javascript">
                             // 基于准备好的dom，初始化echarts实例
@@ -348,8 +348,7 @@
 
                 </div>
             </div>
-        </section>
-        <section id="about-us " class="white ">
+
             <div class="container ">
                 <div class="gap "></div>
                 <div class="centerfade-down section-heading center ">
@@ -394,7 +393,7 @@
         <section id="stats " class="divider-section ">
             <div class="container ">
                 <div class="row fade-up ">
-                    <div style="width:60%;float: left; ">
+                    <div style="width:60%;float: left;">
                         <img src="images/team/ertong4.gif" width="100%"> </div>
                     <div style="width:30%;float: right; margin-top:5rem ;">
                         <p>“或许，你知道杭州织里吗？”</p>
@@ -429,7 +428,7 @@
                     </div>
                 </div>
 
-                <div id="ma" style="width:100%;height:300px">
+                <div id="ma" style="width:100%;height:30rem">
                     <script type="text/javascript">
                         // 基于准备好的dom，初始化echarts实例
                         var myChart = echarts.init(document.getElementById('ma'));
@@ -551,6 +550,22 @@
                                 radius: [30, 110],
                                 center: ['75%', '50%'],
                                 roseType: 'radius',
+                                label: {
+                                    normal: {
+                                        show: false
+                                    },
+                                    emphasis: {
+                                        show: true
+                                    }
+                                },
+                                lableLine: {
+                                    normal: {
+                                        show: false
+                                    },
+                                    emphasis: {
+                                        show: true
+                                    }
+                                },
                                 data: [{
                                     value: 30.8,
                                     name: '秋冬反季'
@@ -576,8 +591,9 @@
             </div>
         </section>
         <section id="stats" class="divider-section">
-            <div class="row" style="margin-top: 5rem;">
-                <div class="center" style="width: 100%;height: 600px;margin-top: 1rem;">
+            <div class="row" style="margin-top: 1rem;">
+                <p align="center" style="font-size: 5rem;">童模来源地区分布图</p>
+                <div class="center" style="width: 100%;height: 60rem;margin-top: 1rem;">
                     <iframe style="width: 100%;height: 100%;" src="https://maplab.amap.com/share/mapv/28d4f120235bf99d71a16c537e9211cd"></iframe>
                 </div>
                 <p align="right" style="margin-right: 3rem;">数据来源：宝贝模特网童模数据</p>
